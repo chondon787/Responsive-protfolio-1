@@ -118,6 +118,9 @@ main{
     display: flex;
     justify-content: space-around;
 }
+.about-items{
+    margin-top: 20px;
+}
  
 
 .item-description{
@@ -236,3 +239,12 @@ main{
     }
     
 } 
+/* sp */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+     .bannar{
+        flex-direction: column;
+     }
+        
+    }
+    
